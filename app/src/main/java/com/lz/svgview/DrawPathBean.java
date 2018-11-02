@@ -28,7 +28,7 @@ public class DrawPathBean {
             canvas.drawPath(mPath, paint);
 
             paint.setStrokeWidth(1);
-            paint.setColor(Color.WHITE);
+            paint.setColor(Color.BLACK);
             paint.setStyle(Paint.Style.STROKE);
             canvas.drawPath(mPath, paint);
         } else {
@@ -39,7 +39,7 @@ public class DrawPathBean {
 
 
             paint.setStrokeWidth(1);
-            paint.setColor(Color.WHITE);
+            paint.setColor(Color.BLACK);
             paint.setStyle(Paint.Style.STROKE);
             canvas.drawPath(mPath, paint);
         }
